@@ -32,19 +32,22 @@
 
 ## 快速上手
 
-### 1. 安装依赖
+> 本项目目前以**源码模板**形式提供，推荐直接克隆仓库到本地，按需修改后集成到你自己的项目中。
+
+### 1. 克隆仓库
 
 ```bash
-pnpm add china-map-3d three @react-three/fiber @react-three/drei gsap d3-geo meshline
-# 或使用 npm / yarn
-npm install china-map-3d three @react-three/fiber @react-three/drei gsap d3-geo meshline
+git clone https://github.com/papayao/china-map-3d.git
+cd china-map-3d
+pnpm install
 ```
 
-### 2. 基础使用示例
+### 2. 将组件集成到你的项目
+
+将 `src/lib/` 目录整体复制到你的项目中，然后直接导入使用：
 
 ```tsx
-import React from "react";
-import { ChinaMap3D } from "china-map-3d";
+import { ChinaMap3D } from "./lib";
 
 export default function MyDataVDashboard() {
   return (
@@ -62,6 +65,14 @@ export default function MyDataVDashboard() {
     </div>
   );
 }
+```
+
+### 3. 安装所需 peer 依赖
+
+```bash
+pnpm add three @react-three/fiber @react-three/drei gsap d3-geo meshline
+# 或使用 npm
+npm install three @react-three/fiber @react-three/drei gsap d3-geo meshline
 ```
 
 ---
