@@ -2,6 +2,8 @@
 
 一套基于 Three.js、React Three Fiber 和 GSAP 构建的高质感 3D 浮雕中国地图及地理空间数据可视化解决方案。支持从 2D 扁平底图平滑垂直拔高变为 3D 浮雕形态的级联入场动画，内置冲天动态光柱、抛物线流光飞线与 3D 动态云层粒子系统。
 
+* **预览网址**：[https://www.spriteverse.cn/](https://www.spriteverse.cn/)
+
 ---
 
 ## 核心特性
@@ -153,6 +155,13 @@ pnpm build
 # 构建可发布的 npm 组件库产物 (ESM / CJS / d.ts)
 pnpm build:lib
 ```
+
+---
+
+## 相关链接
+
+* **官方在线预览**：[https://www.spriteverse.cn/](https://www.spriteverse.cn/)
+* **GitHub 仓库**：[https://github.com/papayao/three-china-map3d](https://github.com/papayao/three-china-map3d)
 
 ---
 
