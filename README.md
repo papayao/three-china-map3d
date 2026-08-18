@@ -1,4 +1,4 @@
-# Three.js 3D 浮雕中国地图与 GIS 数据可视化组件 (three-china-map3d)
+# Three.js 3D 浮雕中国地图与 GIS 数据可视化组件 (china-map-3d)
 
 一套基于 Three.js、React Three Fiber 和 GSAP 构建的高质感 3D 浮雕中国地图及地理空间数据可视化解决方案。支持从 2D 扁平底图平滑垂直拔高变为 3D 浮雕形态的级联入场动画，内置冲天动态光柱、抛物线流光飞线与 3D 动态云层粒子系统。
 
@@ -35,16 +35,16 @@
 ### 1. 安装依赖
 
 ```bash
-pnpm add three-china-map3d three @react-three/fiber @react-three/drei gsap d3-geo meshline
+pnpm add china-map-3d three @react-three/fiber @react-three/drei gsap d3-geo meshline
 # 或使用 npm / yarn
-npm install three-china-map3d three @react-three/fiber @react-three/drei gsap d3-geo meshline
+npm install china-map-3d three @react-three/fiber @react-three/drei gsap d3-geo meshline
 ```
 
 ### 2. 基础使用示例
 
 ```tsx
 import React from "react";
-import { ChinaMap3D } from "three-china-map3d";
+import { ChinaMap3D } from "china-map-3d";
 
 export default function MyDataVDashboard() {
   return (
@@ -135,7 +135,7 @@ export default function MyDataVDashboard() {
 
 ```bash
 # 1. 进入项目根目录
-cd three-china-map3d
+cd china-map-3d
 
 # 2. 安装项目依赖 (推荐使用 pnpm)
 pnpm install
@@ -161,7 +161,7 @@ pnpm build:lib
 ## 相关链接
 
 * **官方在线预览**：[https://www.spriteverse.cn/](https://www.spriteverse.cn/)
-* **GitHub 仓库**：[https://github.com/papayao/three-china-map3d](https://github.com/papayao/three-china-map3d)
+* **GitHub 仓库**：[https://github.com/papayao/china-map-3d](https://github.com/papayao/china-map-3d)
 
 ---
 
