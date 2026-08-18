@@ -1,0 +1,68 @@
+{
+  "name": "three-china-map3d",
+  "version": "1.0.0",
+  "description": "基于 Three.js / React Three Fiber 的高质感 3D 浮雕中国地图与 GIS 数据可视化组件，支持 2D 转 3D 拔高生长动画、抛物线流光飞线、冲天动态光柱与立体云层。",
+  "keywords": [
+    "three.js",
+    "webgl",
+    "react-three-fiber",
+    "china-map",
+    "3d-map",
+    "gis",
+    "datav",
+    "data-visualization",
+    "meshline"
+  ],
+  "author": "SpriteVerse",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:lib": "vite build --config vite.config.lib.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.0.0",
+    "d3-geo": "^3.1.1",
+    "gsap": "^3.12.5",
+    "lucide-react": "^1.16.0",
+    "meshline": "^3.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.174.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
